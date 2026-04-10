@@ -1,0 +1,103 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f5f9fc;
+color:#333;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+header{
+background:#0a6fb6;
+color:white;
+padding:40px 20px;
+text-align:center;
+}
+
+nav{
+background:#084f86;
+text-align:center;
+padding:12px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+.hero{
+background:white;
+padding:60px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:32px;
+margin-bottom:15px;
+}
+
+.button{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#0a6fb6;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+.button:hover{
+background:#084f86;
+}
+
+.about{
+background:#eef5fb;
+padding:50px 20px;
+}
+
+.doctors{
+padding:50px 20px;
+}
+
+.doctor-grid{
+display:flex;
+gap:30px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.doctor-card{
+background:white;
+padding:25px;
+width:260px;
+border-radius:8px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.contact{
+padding:50px 20px;
+}
+
+ul{
+line-height:1.8;
+}
+
+footer{
+background:#0a6fb6;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
