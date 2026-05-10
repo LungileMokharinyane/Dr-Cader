@@ -101,3 +101,24 @@ text-align:center;
 padding:20px;
 margin-top:40px;
 }
+
+.services{
+padding:50px 20px;
+background:white;
+}
+
+.service-grid{
+display:flex;
+gap:25px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.service-card{
+background:#eef5fb;
+padding:25px;
+width:250px;
+border-radius:8px;
+text-align:center;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
